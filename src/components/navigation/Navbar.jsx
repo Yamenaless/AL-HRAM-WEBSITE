@@ -18,10 +18,10 @@ const Navbar = () => {
                 alt="Logo"
             />
             <div className="hidden  lg:flex gap-4 items-center text-sm text-black  ">
-                <a href="#" className="hover:text-gray-700 font-alexandria font-normal">الرئيسية</a>
-                <a href="#" className="hover:text-gray-700 font-alexandria font-normal">المنتجات</a>
-                <a href="#" className="hover:text-gray-700 font-alexandria font-normal">من نحن</a>
                 <a href="#" className="hover:text-gray-700 font-alexandria font-normal">تواصل معنا</a>
+                <a href="#" className="hover:text-gray-700 font-alexandria font-normal">من نحن</a>
+                <a href="#" className="hover:text-gray-700 font-alexandria font-normal">المنتجات</a>
+                <a href="#" className="hover:text-gray-700 font-alexandria font-normal">الرئيسية</a>
             </div>
             <did className="lg:hidden">
                 <svg viewBox="0 0 100 80" width="40" height="40">
