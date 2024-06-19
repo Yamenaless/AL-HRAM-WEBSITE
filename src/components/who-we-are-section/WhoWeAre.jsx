@@ -2,7 +2,7 @@ import React from 'react';
 
 const WhoWeAre = () => {
     return (
-        <section>
+        <section className='section'>
             <div className='bg-gray-200 w-full h-auto min-h-[350px] sm:p-20 p-5'>
                 <div className='mycontainer h-full flex flex-col-reverse gap-10 md:flex-row items-start text-black  '>
                     <div className='md:w-1/2 w-full flex flex-col items-end gap-5'>
