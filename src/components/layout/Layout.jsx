@@ -1,9 +1,9 @@
 import React from 'react'
-import Navbar from '../navigation/Navbar'
+import Navbar from '../../components/navigation/Navbar';
 
 const Layout = ({ children }) => {
     return (
-        <div className='container mx-auto relative '>
+        <div>
             <Navbar />
             {children}
         </div>
