@@ -5,17 +5,19 @@ import OurServices from '../../components/our-services/OurServices';
 import Hero from '../../components/hero/Hero';
 import Cards from '../../components/cards-section/Cards';
 import CallToAction from '../../components/call-to-action-section/CallToAction';
-const Home = () => {
+import Testimonials from '../../components/testimonials/Testimonials';
+const HomePage = () => {
   return (
     <Layout>
       <Hero />
       <WhoWeAre />
       <OurServices />
-      <Cards />    
+      {/* <Cards />     */}
        {/* we have a problem with need fix */}
       <CallToAction/>
+      <Testimonials/>
     </Layout>
   )
 }
 
-export default Home 
+export default HomePage 

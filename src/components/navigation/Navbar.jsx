@@ -1,13 +1,14 @@
 import React, { useState } from 'react';
 import Menu from '../menu/menu';
 import logo from '../../assets/image-4.png'
+import { Link } from 'react-router-dom';
 function App() {
   const [showMobileMenu, setShowMobileMenu] = useState(false);
   return (
     <nav className="bg-white z-10 w-full ">
       <div className="mycontainer mx-auto flex items-center justify-between h-16 px-4 ">
         <div className="flex-shrink-0 font-bold tracking-wider">
-          <img src={logo} alt="logo" />
+          <Link to={"/"}><img src={logo} alt="logo" /></Link>
         </div>
         <div className="hidden md:block">
           <Menu />

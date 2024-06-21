@@ -27,3 +27,6 @@ body {
 .section{
   margin-bottom: 10rem;
 }
+.leading {
+  line-height:1.rem
+}

@@ -2,7 +2,7 @@ import React from 'react';
 
 const WhoWeAre = () => {
     return (
-        <section className='section'>
+        <section className=''>
             <div className='bg-gray-200 w-full h-auto min-h-[350px] sm:p-20 p-5'>
                 <div className='mycontainer h-full flex flex-col-reverse gap-10 md:flex-row items-start text-black  '>
                     <div className='md:w-1/2 w-full flex flex-col items-end gap-5'>
@@ -13,7 +13,7 @@ const WhoWeAre = () => {
                             كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه
                             الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع.
                         </p>
-                        <button className='w-[200px] h-[40px] border border-black rounded-full px-5 text-sm font-alexandria'>
+                        <button className='w-[200px] h-[40px] border border-black rounded-full px-5 text-sm font-alexandria hover:bg-black hover:text-white hover:border-white'>
                             إقرأ المزيد عنا
                         </button>
                     </div>
