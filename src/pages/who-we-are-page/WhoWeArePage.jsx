@@ -6,7 +6,7 @@ const WhoWeArePage = () => {
   return (
     <Layout>
       <div className='text-black'>
-      <Hero />
+      <Hero hero_title={"من نحن"}/>
       </div>
     </Layout>
   )

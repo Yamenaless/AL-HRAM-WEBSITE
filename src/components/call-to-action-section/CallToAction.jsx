@@ -2,7 +2,7 @@ import React from "react";
 
 const CallToAction = () => {
     return (
-        <section className="w-full mt-[10rem] mb-[10rem]">
+        <section className="w-full mt-[10rem]">
             <div className="mycontainer w-full   ">
 
 

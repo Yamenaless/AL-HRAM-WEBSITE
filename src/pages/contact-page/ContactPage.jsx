@@ -6,7 +6,7 @@ const ContactPage = () => {
   return (
     <Layout>
       <div>
-      <Hero />
+      <Hero hero_title={"التواصل"} />
       </div>
     </Layout>
   )

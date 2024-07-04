@@ -6,16 +6,18 @@ import Hero from '../../components/hero/Hero';
 import Cards from '../../components/cards-section/Cards';
 import CallToAction from '../../components/call-to-action-section/CallToAction';
 import Testimonials from '../../components/testimonials/Testimonials';
+import CtaSection from '../../components/cta-section/CtaSection';
 const HomePage = () => {
   return (
     <Layout>
-      <Hero />
+      <Hero hero_title={"الهرم"} hero_sub_title={" __________________________  عالم الألكترونيات   __________________________ "} />
       <WhoWeAre />
       <OurServices />
       {/* <Cards />     */}
        {/* we have a problem with need fix */}
       <CallToAction/>
       <Testimonials/>
+      <CtaSection/>
     </Layout>
   )
 }

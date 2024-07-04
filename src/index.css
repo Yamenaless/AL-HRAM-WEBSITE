@@ -30,3 +30,7 @@ body {
 .leading {
   line-height:1.rem
 }
+.rtl {
+  direction: rtl;
+  text-align: right;
+}
