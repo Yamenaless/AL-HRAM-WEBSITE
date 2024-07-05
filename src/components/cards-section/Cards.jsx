@@ -4,18 +4,18 @@ import data from '../../data';
 
 const Cards = () => {
   return (
-    <section className='section'>
-      <div className='w-full mb-20 mt-20'>
-        <div className='container mx-auto pl-0 flex justify-center'>
-          <div className='grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-10'>
-            {data?.map((item, i) => (
-              <Card key={i} bg={item.bg} title={item.title} desc={item.disc} />
-            ))}
-          </div>
+    <section className="section py-8">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex flex-wrap  justify-center gap-10">
+          {data?.map((item, i) => (
+            <div key={i} className="w-full max-w-xs sm:max-w-none sm:w-[612px]">
+              <Card bg={item.bg} title={item.title} desc={item.disc} />
+            </div>
+          ))}
         </div>
       </div>
     </section>
   );
-}
+};
 
 export default Cards;

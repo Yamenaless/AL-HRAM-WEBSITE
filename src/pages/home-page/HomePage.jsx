@@ -10,10 +10,10 @@ import CtaSection from '../../components/cta-section/CtaSection';
 const HomePage = () => {
   return (
     <Layout>
-      <Hero hero_title={"الهرم"} hero_sub_title={" __________________________  عالم الألكترونيات   __________________________ "} />
+      <Hero hero_title={"الهرم"} hero_sub_title={" ----  عالم التكنولوجيا   ---- "} />
       <WhoWeAre />
       <OurServices />
-      {/* <Cards />     */}
+      <Cards />    
        {/* we have a problem with need fix */}
       <CallToAction/>
       <Testimonials/>

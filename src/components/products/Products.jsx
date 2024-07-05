@@ -39,7 +39,18 @@ const products = [
         name: 'ايفون 14 ',
         price: 1150
     },
-    
+    {
+        id: 7,
+        imageUrl: { imageUrl },
+        name: 'ايفون 13 برو ماكس ',
+        price: 1150
+    },
+    {
+        id: 8,
+        imageUrl: { imageUrl },
+        name: 'ايفون 13 برو  ',
+        price: 1150
+    },
 ];
 
 const Products = () => {
@@ -53,6 +64,7 @@ const Products = () => {
                             imageUrl={product.imageUrl}
                             name={product.name}
                             price={product.price}
+                            id={product.id}
                         />
                     ))}
                 </div>

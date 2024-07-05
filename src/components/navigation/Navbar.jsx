@@ -8,7 +8,7 @@ function App() {
     <nav className="bg-white z-10 w-full ">
       <div className="mycontainer mx-auto flex items-center justify-between h-16 px-4 ">
         <div className="flex-shrink-0 font-bold tracking-wider">
-          <Link to={"/"}><img src={logo} alt="logo" /></Link>
+          <Link to={"/الهرم"}><img src={logo} alt="logo" /></Link>
         </div>
         <div className="hidden md:block">
           <Menu />

@@ -1,20 +1,27 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Card = ({ bg, title, desc }) => {
     return (
-        <div className={`lg:w-[612px] lg:h-[749px] w-[550px] h-[650px] bg-no-repeat bg-cover flex flex-col justify-center pr-10  `} style={{
-            backgroundImage: `url(${bg})`,
-        }}>
-            <div className='mycontainer content-wrapper flex flex-col text-right justify-center items-end text-white gap-10'>
-                <h1 className='text-5xl leading-snug line-clamp-3'>
-                    {title}
-                </h1>
-                <p className='text-[10px] md:text-sm font-alexandria font-light sm:w-[400px] w-[100%] '>
-                    {desc}
-                </p>
+        <div
+            className="w-full max-w-xs sm:max-w-none sm:w-[612px] h-[749px] shadow-lg bg-cover relative group  "
+            style={{
+                backgroundImage: `url("${bg}")`
+            }}
+        >
+            <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 px-20">
+                <div className=" text-white p-4 text-right">
+                    <h2 className="text-5xl leading-snug font-bold mb-10">{title}</h2>
+                    <p className="mb-7 mt-7 font-alexandria font-light ">{desc}</p>
+                    <Link to={`/الهرم/${title}`}>
+                        <button className='w-[200px] h-[40px] border border-white rounded-full px-5 text-sm font-alexandria hover:bg-white hover:text-black hover:border-white'>
+                            إقرأ المزيد
+                        </button>
+                    </Link>
+                </div>
             </div>
         </div>
-    )
-}
+    );
+};
 
-export default Card
+export default Card;
